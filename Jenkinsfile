@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = "dockerabhijeet/hello-docker-java"
-    registryCredential = 'doc1'
+    registryCredential = 'docker_id'
     dockerImage = ''
   }
   agent any
